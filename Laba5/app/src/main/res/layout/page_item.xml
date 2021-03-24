@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/push"
+    android:layout_margin="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:padding="8dp">
+
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="8dp"
+            app:srcCompat="@drawable/ic_outline" />
+
+        <TextView
+            android:id="@+id/text_view_1"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="99dp"
+            android:layout_toEndOf="@id/image_view"
+            android:text="Group1"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_view_2"
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_1"
+            android:layout_marginStart="71dp"
+            android:layout_marginTop="12dp"
+            android:layout_toEndOf="@id/image_view"
+            android:text="Group2" />
+
+        <TextView
+            android:id="@+id/text_view_3"
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_1"
+            android:layout_marginStart="175dp"
+            android:layout_marginTop="12dp"
+            android:layout_toEndOf="@id/image_view"
+            android:text="Group2" />
+
+        <CheckBox
+            android:id="@+id/cb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/image_view"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="328dp"
+            android:layout_marginTop="8dp" />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

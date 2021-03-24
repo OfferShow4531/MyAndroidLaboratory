@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Workinglab4</string>
+    <string-array name="heroes_name">
+        <item>Batman</item>
+        <item>IronMan</item>
+        <item>SpiderMan</item>
+        <item>Tor</item>
+        <item>Wolverine</item>
+    </string-array>
+    <string-array name="hero_desc">
+        <item>DC HERO</item>
+        <item>MARVEL</item>
+        <item>MARVEL</item>
+        <item>MARVEL</item>
+        <item>MARVEL</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
